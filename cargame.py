@@ -9,7 +9,7 @@ prev=""
 carstart=False
 while True:
     comm=input("Enter your desired command>> ")
-    if comm==pre:
+    if comm==prev:
        if comm.lower()=="start":
           print("Car already started")
        elif comm.lower()=="stop":
