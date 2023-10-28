@@ -5,7 +5,7 @@ print('''
       Enter quit to quit the game    
  ''')
 comm=""
-pre=""
+prev=""
 carstart=False
 while True:
     comm=input("Enter your desired command>> ")
@@ -33,6 +33,6 @@ while True:
        carstart=True
     else :
        carstart=False
-    pre=comm
+    prev=comm
 
     
