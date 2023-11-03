@@ -10,5 +10,5 @@ for i in range(2,num+1):
                break
         if pri==True:
             prime.append(i)
-print("The set of prime factors for the given number is:")
+print("The set of prime factors for the given number is: ")
 print(prime)
